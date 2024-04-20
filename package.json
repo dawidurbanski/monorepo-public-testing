@@ -1,8 +1,13 @@
 {
   "name": "root",
   "private": true,
-  "dependencies": {},
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "env": "wp-env"
+  },
   "devDependencies": {
+    "@wordpress/env": "^9.8.0",
     "lerna": "^8.1.2"
   }
 }

@@ -1,0 +1,7 @@
+{
+	"phpVersion": "8.2",
+	"plugins": [
+		"./plugins/basic-plugin",
+		"./premium/plugins/premium-plugin"
+	]
+}
