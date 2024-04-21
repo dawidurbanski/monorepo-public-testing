@@ -1,0 +1,24 @@
+{
+  "name": "basic-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "wp-env": "wp-env",
+    "build": "wp-scripts build ui/index.ts",
+    "start": "wp-env start",
+    "stop": "wp-env stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^9.8.0",
+    "@wordpress/scripts": "^27.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "hello": "workspace:^"
+  }
+}

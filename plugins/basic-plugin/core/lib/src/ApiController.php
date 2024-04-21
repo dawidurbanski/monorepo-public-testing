@@ -2,22 +2,22 @@
 /**
  * Main WP Appointments rest API controller
  *
- * @package WPAppointments
+ * @package WPMonorepo
  * @since 0.0.1
  */
 
-namespace WPAppointments\Core;
+namespace Core;
 
 use WP_REST_Response;
 use WP_Error;
 
-define( 'WPAPPOINTMENTS_API_NAMESPACE', 'wpappointments/v1' );
+define( 'MONOREPO_API_NAMESPACE', 'monorepo/v1' );
 
 /**
  * Endpoint controller
  */
 class ApiController {
-	const ROUTE_NAMESPACE = WPAPPOINTMENTS_API_NAMESPACE;
+	const ROUTE_NAMESPACE = MONOREPO_API_NAMESPACE;
 
 	/**
 	 * Init method stub

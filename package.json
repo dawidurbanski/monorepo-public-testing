@@ -5,7 +5,9 @@
     "start": "wp-env start",
     "stop": "wp-env stop",
     "env": "wp-env",
-    "test": "wp-env run tests-cli --env-cwd=wp-content/wpappointments ./vendor/bin/pest"
+    "lerna": "lerna",
+    "build": "lerna run build",
+    "test": "wp-env run tests-cli --env-cwd=wp-content/monorepo ./vendor/bin/pest"
   },
   "devDependencies": {
     "@wordpress/env": "^9.8.0",

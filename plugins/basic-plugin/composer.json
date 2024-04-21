@@ -1,0 +1,10 @@
+{
+  "name": "root/basic-plugin",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/lib/src/",
+      "BasicPlugin\\": "src/"
+    }
+  }
+}

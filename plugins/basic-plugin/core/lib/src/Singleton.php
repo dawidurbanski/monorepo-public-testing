@@ -2,11 +2,11 @@
 /**
  * WPIntegrator class file
  *
- * @package WPAppointments
+ * @package WPMonorepo
  * @since 0.0.1
  */
 
-namespace WPAppointments\Core;
+namespace Core;
 
 /**
  * Abstract class to keep WordPress integration methods.

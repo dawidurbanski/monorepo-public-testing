@@ -2,7 +2,7 @@
 /**
  * Dummy test
  *
- * @package WPAppointments
+ * @package WPMonorepo
  */
 
 namespace Tests;

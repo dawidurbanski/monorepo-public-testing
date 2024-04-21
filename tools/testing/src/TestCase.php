@@ -2,7 +2,7 @@
 /**
  * WordPress PHPUnit test case class
  *
- * @package WPAppointments
+ * @package WPMonorepo
  */
 
 namespace TestTools;

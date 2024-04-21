@@ -2,7 +2,7 @@
 /**
  * Pest configuration file
  *
- * @package WPAppointments
+ * @package WPMonorepo
  * @since 0.0.1
  */
 

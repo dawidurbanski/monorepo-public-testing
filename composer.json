@@ -1,10 +1,10 @@
 {
-  "name": "root/wpappointments",
+  "name": "root/monorepo",
   "type": "project",
   "autoload": {
     "psr-4": {
       "Tests\\": "plugins/basic-plugin/tests/",
-      "TestTools\\": "core/testing/src/"
+      "TestTools\\": "tools/testing/src/"
     }
   },
   "require-dev": {

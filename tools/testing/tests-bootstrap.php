@@ -2,8 +2,10 @@
 /**
  * Bootstrap the plugin unit testing environment.
  *
- * @package WPAppointments
+ * @package WPMonorepo
  */
+
+namespace TestTools;
 
 $wp_tests_dir = getenv( 'WP_TESTS_DIR' ) ? getenv( 'WP_TESTS_DIR' ) : sys_get_temp_dir();
 

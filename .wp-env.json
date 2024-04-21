@@ -1,7 +1,7 @@
 {
 	"phpVersion": "8.2",
 	"mappings": {
-		"wp-content/wpappointments": "."
+		"wp-content/monorepo": "."
 	},
 	"plugins": [
 		"./plugins/basic-plugin",
