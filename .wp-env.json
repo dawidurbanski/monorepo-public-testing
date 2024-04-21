@@ -1,5 +1,8 @@
 {
 	"phpVersion": "8.2",
+	"mappings": {
+		"wp-content/wpappointments": "."
+	},
 	"plugins": [
 		"./plugins/basic-plugin",
 		"./premium/plugins/premium-plugin"

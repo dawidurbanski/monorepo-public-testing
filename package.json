@@ -4,7 +4,8 @@
   "scripts": {
     "start": "wp-env start",
     "stop": "wp-env stop",
-    "env": "wp-env"
+    "env": "wp-env",
+    "test": "wp-env run tests-cli --env-cwd=wp-content/wpappointments ./vendor/bin/pest"
   },
   "devDependencies": {
     "@wordpress/env": "^9.8.0",
